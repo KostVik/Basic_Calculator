@@ -35,7 +35,7 @@ class Calculator:
         if first_num < 0:
             return "ERROR! Square root of a negative number!"
         result = math.sqrt(first_num)
-        self.history.append(f"√{first_num} = {result}")
+        self.history.append(f"Root of {first_num} = {result}")
         return result
     
     def sin(self, first_num):
@@ -45,7 +45,7 @@ class Calculator:
     
     def cos(self, first_num):
         result = math.cos(math.radians(first_num)) #Converting degrees to radians
-        self.history.append(f"sin({first_num}°) = {result}")
+        self.history.append(f"cos({first_num}°) = {result}")
         return result
     
     def show_history(self):
