@@ -55,3 +55,16 @@ class Calculator:
 
 
 
+#Testing class
+calc = Calculator()
+print(calc.add(28, 40)) #68
+print(calc.substract(2035, 2030)) #5
+print(calc.multiply(20, 4)) #80
+print(calc.divide(20, 4)) #5.0
+print(calc.divide(20, 0)) #Zero check
+print(calc.power(2, 10)) #1024
+print(calc.sqaure_root(21)) #4.58257569495584
+print(calc.sin(21)) #0.35836794954530027
+print(calc.cos(52)) #0.6g the156614753256583
+
+print(calc.show_history())
