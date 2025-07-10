@@ -40,12 +40,12 @@ class Calculator:
     
     def sin(self, first_num):
         result = math.sin(math.radians(first_num)) #Converting degrees to radians
-        self.history.append(f"sin({first_num}°) = {result}")
+        self.history.append(f"sin({first_num}) = {result}")
         return result
     
     def cos(self, first_num):
         result = math.cos(math.radians(first_num)) #Converting degrees to radians
-        self.history.append(f"cos({first_num}°) = {result}")
+        self.history.append(f"cos({first_num}) = {result}")
         return result
     
     def show_history(self):
